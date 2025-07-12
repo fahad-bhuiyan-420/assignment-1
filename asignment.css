@@ -1,0 +1,115 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.header1{
+    background-image: url(/Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-top: 40px;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-bottom: 152px;
+}
+
+.banner{
+    text-align: center;
+}
+.heading{
+    font-size: 65px;
+    font-weight: bold;
+    max-width: 905px;
+    text-align: center;
+    margin-left: 400px;
+    padding-bottom: 0px;
+}
+.action{
+    display:flex;
+    justify-content: space-between;
+    margin: 116px 159px 0px 141px;
+}
+.image{
+    border-radius: 48px;
+}
+.action input[type="image"]{
+    border-radius: 48px;
+}
+.first{
+    margin-top: 62.5px;
+    margin-bottom: 62.5px;
+    max-width: 517px;
+}
+.first p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.first h2{
+    font-size: 42px;
+    font-weight: bolder;
+}
+.user-content{
+    display:flex;
+    justify-content: center;
+    gap: 158px;
+}
+.user-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+    margin: 0px 0px
+}
+.user-content p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+.productive-user{
+    background-color:rgba(78, 71, 255, 0.1);
+    text-align: center;
+    max-width: 1140px;
+    /* max-height: 306px; */
+    margin-left: 250px;
+    border-radius: 10px
+}
+.para{
+    font-size: 38px;
+    font-weight: bolder;
+    padding: 50px 0px 0px
+}
+.productive-user section{
+    padding-bottom: 20px;
+}
