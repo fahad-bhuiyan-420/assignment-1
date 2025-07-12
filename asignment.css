@@ -5,7 +5,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+body{
+    background-color: #F5F7FE;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -14,6 +16,7 @@
 }
 .header1{
     background-image: url(/Assets/Hero-bg.png);
+    padding-top: 0px;
 }
 nav{
     display: flex;
@@ -112,4 +115,99 @@ nav{
 }
 .productive-user section{
     padding-bottom: 20px;
+}
+.review-content{
+    display: flex;
+    max-width: 1140px;
+    margin-left: 230px;
+    text-align: center;
+    gap: 20px;
+}
+.review-content h1{
+    margin-left: 400px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.content-sec{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    width: 367px;
+    height: 243px;
+    padding: 24px;
+}
+.reviewer{
+    display: flex;
+    gap: 20px;
+}
+.pic{
+    padding-top: 22px;
+    width: 40px;
+    height: 40px;
+}
+.review{
+    padding-top: 100px;
+}
+.name{
+    color: rgba(117, 117, 117, 1);
+}
+.date{
+    color: rgba(179, 179, 179, 1);
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.touch h2{
+    font-weight: bold;
+    font-size: 97px;
+    max-width: 528px;
+}
+.form input{
+    font-size: 20px;
+    width: 497px;
+    height: 70px;
+    padding-left: 32px;
+    border: none;
+    border-radius: 10px;
+}
+.form textarea{
+    width: 497px;
+    height: 135px;
+    padding-left: 32px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.form input[type="button"]{
+    width: 79%;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 19px;
+}
+.footer{
+    text-align: center;
+}
+.footer h2{
+    font-size: 100px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+}
+.footer p{
+    color: rgba(137, 135, 161, 1);
+    width: 531px;
+    height: 48px;
+    margin-left: 580px;
+}
+.info a{
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+    margin: 48px;
+    padding-bottom: 100px;
 }
