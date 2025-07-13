@@ -15,7 +15,7 @@ body{
   font-style: normal;
 }
 .header1{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(Assets/Hero-bg.png);
     padding-top: 0px;
 }
 nav{
